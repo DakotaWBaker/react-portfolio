@@ -15,7 +15,7 @@ export default function Contact() {
         <div className = 'row d-flex justify-content-center mt-5'>
           <div className='col-xs col-xl-4 text-center'>
           <h2 className='contactheader'>Contact</h2>
-          <h4 className='contactsubheader'>Want to get in touch?</h4>
+          <h4 className='contactsubheader'>Want to get in touch</h4>
           <p className = 'contactblurp'>I would love to hear from you! I am always open for project collaboration or hiring oppurtunities.</p>
         </div>
         </div>
