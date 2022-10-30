@@ -1,0 +1,149 @@
+html, root {
+    scroll-behavior: smooth;
+}
+body{
+    /* background-image: url(assets/machero.jpg);
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; */
+    font-family: 'Noto Sans', sans-serif;
+    height: 100%;
+    background-image: linear-gradient(to right bottom, #373e98, #38397b, #36345f, #312f44, #2a2a2a);
+    background-attachment: fixed;
+}
+.nav {
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+.navbtn {
+    margin-right: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+a:hover, a:active, a {
+    text-decoration: none;
+}
+.navbtn:hover {
+    border-bottom: 1px solid #f16775;
+}
+.logo {
+    background-image: url(assets/logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 42px;
+    width: 300px;
+    justify-content: start;
+
+}
+.navbar-toggler {
+    background-color: white;
+}
+h5, h1 {
+    color: white;
+    padding-bottom: 5px;
+}
+h1, h3, h2 {
+  font-family: 'Poppins', sans-serif;
+}
+.heroheader {
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+}
+
+.herorow {
+    padding-top: 250px;
+}
+
+
+
+  
+.contactbtn {
+    border: 2px solid #fee36e;
+    padding: 8px 15px 8px 15px;
+    border-radius: 5px;
+    margin-top: 15px;
+    background-color: #fee36e;
+    color: black;
+}
+
+.about {
+    /* background-color: grey; */
+    margin-top: 700px;
+    background-color: white;
+}
+
+.aboutpara {
+  background-color: white;
+  color: #2a2a2a;
+  padding: 75px 125px 75px 125px;
+}
+.hero {
+    position: fixed;
+    z-index: -999;
+}
+.aboutme {
+    color: #373e98;
+    text-shadow: 2px 4px 10px hsla(0, 0%, 0%, .3),
+    2px 4px 20px hsla(0, 0%, 0%, .2);
+}
+.navbar-active {
+    background-image: linear-gradient(to right, rgb(55, 62, 152), #38397b, #36345f, #312f44, #2a2a2a);
+    color: white;
+}
+.navitem {
+    justify-content: end;
+}
+.card {
+    max-width: 391.66px;
+    min-width: 391.66px;
+    min-height: 268.06px;
+    /* border-image: linear-gradient(to right, #373e98, #38397b, #36345f, #312f44, #2a2a2a) 30;
+    border-width: 2px;
+    border-style: solid; */
+    /* background-color: #eeee; */
+    /* box-shadow: 2px 4px 10px hsla(0, 0%, 0%, .3),
+    2px 4px 20px hsla(0, 0%, 0%, .2); */
+    
+     border: none;
+}
+.card-body {
+    border-top: none;
+}
+.card-header {
+    border: none;
+    background-color: white;
+    text-decoration: underline rgb(241, 103, 117);
+}
+
+.icons {
+    height: 25px;
+    width: 25px;
+}
+.projectcontainer {
+    /* background-image: linear-gradient(to left top, #373e98, #38397b, #36345f, #312f44, #2a2a2a); */
+    background-color: #f2f2f2;
+    color: black;
+}
+
+.projectpics {
+    max-height: 100%;
+    max-width: 100%;
+   
+}
+.projectcols {
+    height: 300px;
+}
+.projectrow {
+    border-bottom: 2px solid transparent;
+    border-image: linear-gradient(0.25turn, rgb(242, 242, 242), rgb(55, 62, 152), rgb(242, 242, 242));
+    border-image-slice: 1;
+    width:100%;
+}
+hr{
+    border-image: linear-gradient(0.25turn, rgb(242, 242, 242), rgb(241, 103, 117), rgb(242, 242, 242));
+    border-image-slice: 1;
+    width:100%;
+}
