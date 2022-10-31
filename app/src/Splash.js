@@ -7,7 +7,6 @@ import Projects from './Projects'
 export default function Splash() {
   return (
     <>
-    <Navbar />
     <Hero />
 <About />
 <Projects />

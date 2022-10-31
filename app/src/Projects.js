@@ -54,7 +54,7 @@ export default function Projects() {
         </div>
       </div>
       <div className="row projectrow justify-content-center w- 75 pb-4 mt-5">
-        <div className="col-4 projectcols">
+        <div className="col-4 projectcols text-center">
           <img src={weather} className="projectpics" />
         </div>
         <div className="col-6 projectcols text-center pt-5">

@@ -1,13 +1,13 @@
 import React from 'react'
 import { useState, useEffect } from 'react'
+import App from './App'
 
 
 
 
-export default function Navbar() {
+export default function Navbar({page, setPage}) {
   const [navbar, setNavbar] = useState(false)
 const changeBackground = () => {
- console.log(window.scrollY)
  if (window.scrollY >= 644) {
    setNavbar(true)
  } else {
@@ -50,7 +50,7 @@ useEffect(() => {
             </a>
         </li>
         <li className="nav-item">
-        <button className='nav navbtn'>
+        <button className='nav navbtn' onClick={() => setPage("Blog")}> 
             Blog
             </button>
         </li>
