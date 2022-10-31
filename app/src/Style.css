@@ -1,78 +1,87 @@
-html, root {
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
+  z-index: -9;
 }
-body{
-    /* background-image: url(assets/machero.jpg);
+#root {
+  z-index: -9;
+}
+body {
+  /* background-image: url(assets/machero.jpg);
     height: 500px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center; */
-    /* font-family: 'Noto Sans', sans-serif;
+  /* font-family: 'Noto Sans', sans-serif;
     height: 100%;
     background-image: linear-gradient(to right bottom, #373e98, #38397b, #36345f, #312f44, #2a2a2a);
     background-attachment: fixed; */
+  z-index: -9;
 }
 .nav {
-    background-color: transparent;
-    color: white;
-    border: none;
+  background-color: transparent;
+  color: white;
+  border: none;
 }
 .navbtn {
-    margin-right: 30px;
-    padding-left: 10px;
-    padding-right: 10px;
+  margin-right: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
-a:hover, a:active, a {
-    text-decoration: none;
+a:hover,
+a:active,
+a {
+  text-decoration: none;
+  color: white;
 }
 .navbtn:hover {
-    border-bottom: 1px solid #f16775;
+  border-bottom: 1px solid #f16775;
 }
 .logo {
-    background-image: url(assets/logo.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 42px;
-    width: 300px;
-    justify-content: start;
-
+  background-image: url(assets/logo.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 42px;
+  width: 300px;
+  justify-content: start;
 }
 .navbar-toggler {
-    background-color: white;
+  background-color: white;
+  color: black;
 }
-h5, h1 {
-    color: white;
-    padding-bottom: 5px;
+h5,
+h1 {
+  color: white;
+  padding-bottom: 5px;
 }
-h1, h3, h2 {
-  font-family: 'Poppins', sans-serif;
+h1,
+h3,
+h2 {
+  font-family: "Poppins", sans-serif;
 }
+
 .heroheader {
-    border-bottom: 1px solid white;
-    padding-bottom: 10px;
+  border-bottom: 1px solid white;
+  padding-bottom: 10px;
 }
 
 .herorow {
-    padding-top: 250px;
+  padding-top: 250px;
 }
 
-
-
-  
 .contactbtn {
-    border: 2px solid #fee36e;
-    padding: 8px 15px 8px 15px;
-    border-radius: 5px;
-    margin-top: 15px;
-    background-color: #fee36e;
-    color: black;
+  border: 2px solid #fee36e;
+  padding: 8px 15px 8px 15px;
+  border-radius: 5px;
+  margin-top: 15px;
+  background-color: #fee36e;
+  color: black;
 }
 
 .about {
-    /* background-color: grey; */
-    margin-top: 700px;
-    background-color: white;
+  /* background-color: grey; */
+  margin-top: 700px;
+  background-color: white;
 }
 
 .aboutpara {
@@ -81,89 +90,176 @@ h1, h3, h2 {
   padding: 75px 125px 75px 125px;
 }
 .hero {
-    position: fixed;
-    z-index: -999;
-    height: 100%;
-    background-image: linear-gradient(to right bottom, #373e98, #38397b, #36345f, #312f44, #2a2a2a);
-    background-attachment: fixed;
+  position: fixed;
+  z-index: -1;
+  height: 100%;
+  background-image: linear-gradient(
+    to right bottom,
+    #373e98,
+    #38397b,
+    #36345f,
+    #312f44,
+    #2a2a2a
+  );
+  background-attachment: fixed;
 }
 .aboutme {
-    color: #373e98;
-    text-shadow: 2px 4px 10px hsla(0, 0%, 0%, .3),
-    2px 4px 20px hsla(0, 0%, 0%, .2);
+  color: #373e98;
+  text-shadow: 2px 4px 10px hsla(0, 0%, 0%, 0.3),
+    2px 4px 20px hsla(0, 0%, 0%, 0.2);
 }
 .navbar-active {
-    background-image: linear-gradient(to right, rgb(55, 62, 152), #38397b, #36345f, #312f44, #2a2a2a);
-    color: white;
+  background-image: linear-gradient(
+    to right,
+    rgb(55, 62, 152),
+    #38397b,
+    #36345f,
+    #312f44,
+    #2a2a2a
+  );
+  color: white;
 }
 .navitem {
-    justify-content: end;
+  justify-content: end;
 }
 .card {
-    max-width: 391.66px;
-    min-width: 391.66px;
-    min-height: 268.06px;
-    /* border-image: linear-gradient(to right, #373e98, #38397b, #36345f, #312f44, #2a2a2a) 30;
+  max-width: 391.66px;
+  min-width: 391.66px;
+  min-height: 268.06px;
+  /* border-image: linear-gradient(to right, #373e98, #38397b, #36345f, #312f44, #2a2a2a) 30;
     border-width: 2px;
     border-style: solid; */
-    /* background-color: #eeee; */
-    /* box-shadow: 2px 4px 10px hsla(0, 0%, 0%, .3),
+  /* background-color: #eeee; */
+  /* box-shadow: 2px 4px 10px hsla(0, 0%, 0%, .3),
     2px 4px 20px hsla(0, 0%, 0%, .2); */
-    
-     border: none;
+  border: none;
 }
 .card-body {
-    border-top: none;
+  border-top: none;
 }
 .card-header {
-    border: none;
-    background-color: white;
-    text-decoration: underline rgb(241, 103, 117);
+  border: none;
+  background-color: white;
+  text-decoration: underline rgb(241, 103, 117);
 }
 
 .icons {
-    height: 25px;
-    width: 25px;
+  height: 25px;
+  width: 25px;
 }
 .projectcontainer {
-    /* background-image: linear-gradient(to left top, #373e98, #38397b, #36345f, #312f44, #2a2a2a); */
-    background-color: #f2f2f2;
-    color: black;
+  /* background-image: linear-gradient(to left top, #373e98, #38397b, #36345f, #312f44, #2a2a2a); */
+  background-color: #f2f2f2;
+  color: black;
 }
 
 .projectpics {
-    max-height: 100%;
-    max-width: 100%;
-   
+  max-height: 100%;
+  max-width: 100%;
 }
 .projectcols {
-    height: 300px;
+  height: 300px;
 }
 .projectrow {
-    border-bottom: 2px solid transparent;
-    border-image: linear-gradient(0.25turn, rgb(242, 242, 242), rgb(55, 62, 152), rgb(242, 242, 242));
-    border-image-slice: 1;
-    width:100%;
+  border-bottom: 2px solid transparent;
+  border-image: linear-gradient(
+    0.25turn,
+    rgb(242, 242, 242),
+    rgb(55, 62, 152),
+    rgb(242, 242, 242)
+  );
+  border-image-slice: 1;
+  width: 100%;
 }
-hr{
-    border-image: linear-gradient(0.25turn, rgb(242, 242, 242), rgb(241, 103, 117), rgb(242, 242, 242));
-    border-image-slice: 1;
-    width:100%;
+hr {
+  border-image: linear-gradient(
+    0.25turn,
+    rgb(242, 242, 242),
+    rgb(241, 103, 117),
+    rgb(242, 242, 242)
+  );
+  border-image-slice: 1;
+  width: 100%;
 }
 strong {
-    position: relative;
-  }
+  position: relative;
+}
+
+strong::before {
+  /* Highlight color */
+  background-color: rgb(241, 103, 117);
+
+  content: "";
+  position: absolute;
+  width: calc(100% + 4px);
+  height: 100%;
+  left: -2px;
+  bottom: 0;
+  z-index: -1;
+  transform: rotate(-2deg);
+}
+.contact {
+    height: 500px;
+    background-color: white;
+    background-color: #2a2a2a;
+}
+
+.send-button {
+  margin-top: 15px;
+  height: 34px;
+  width: 400px;
+  overflow: hidden;
+  transition: all .2s ease-in-out;
+}
+
+.alt-send-button {
+  width: 400px;
+  height: 34px;
+  transition: all .2s ease-in-out;
+}
+
+.send-text {
+  display: block;
+  margin-top: 10px;
+  font: 700 12px 'Lato', sans-serif;
+  letter-spacing: 2px;
+}
+
+.alt-send-button:hover {
+  transform: translate3d(0px, -29px, 0px);
+}
+.form-horizontal {
+  float: left;
+  max-width: 400px;
+  font-weight: 400;
+}
+
+.form-control, 
+textarea {
+  max-width: 400px;
   
-  strong::before {
-    /* Highlight color */
-    background-color: rgb(241, 103, 117);
-  
-    content: "";
-    position: absolute;
-    width: calc(100% + 4px);
-    height: 100%;
-    left: -2px;
-    bottom: 0;
-    z-index: -1;
-    transform: rotate(-2deg);
-  }
+  background-color: transparent;
+  color: #fff;
+  letter-spacing: 1px;
+}
+.form-wrapper {
+  border: 1px solid grey;
+  margin: 1px;
+}
+.contactlinks {
+  background-color: #2a2a2a;
+  color: black;
+}
+.hrefs{
+  color: white;
+}
+.hrefs:hover {
+  color: #f16775;
+  text-decoration: underline;
+}
+.contactheader {
+  color:#f16775;
+}
+.contactblurp, .contactsubheader {
+  color: white;
+}

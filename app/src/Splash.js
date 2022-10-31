@@ -3,6 +3,7 @@ import React from 'react'
 import About from './About'
 import Hero from './Hero'
 import Projects from './Projects'
+import Contact from './Contact'
 
 export default function Splash() {
   return (
@@ -10,6 +11,7 @@ export default function Splash() {
     <Hero />
 <About />
 <Projects />
+<Contact />
 </>
   )
 }

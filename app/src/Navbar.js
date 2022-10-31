@@ -50,13 +50,14 @@ useEffect(() => {
             </a>
         </li>
         <li className="nav-item">
-        <button className='nav navbtn' onClick={() => setPage("Blog")}> 
-            Blog
+        <a href = '#contactscroll'> <button className = 'nav navbtn'>
+            Contact
             </button>
+            </a>
         </li>
         <li className="nav-item">
-        <button className='nav navbtn'>
-            Contact
+        <button className='nav navbtn' onClick={() => setPage("Blog")}> 
+            Blog
             </button>
         </li>
       </ul>
