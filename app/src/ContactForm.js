@@ -20,12 +20,6 @@ const ContactForm = () => {
   }
 
   return (
-    // <form
-    //   action={FORM_ENDPOINT}
-    //   onSubmit={handleSubmit}
-    //   method="POST"
-    //   target="_blank"
-    // >
 
     <form id="contact-form" className="form-horizontal" role="form"
       action={FORM_ENDPOINT}

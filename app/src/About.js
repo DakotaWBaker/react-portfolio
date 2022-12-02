@@ -25,11 +25,15 @@ export default function About() {
         </div>
         <div className='row'>
        <div className='col aboutpara text-center'>
-        <p> I was active duty military from 2015-2018. I spent the past few years not knowing what I wanted to do for a career on the civilian side, but that was before I fell in love with coding and found the Awesome Inc web developer bootcamp! The bootcamp has been a life changing experience for me. We're building 10+ projects from scratch using HTML, CSS, Bootstrap, Javascript, React.js, Python/Django.</p>
+        <p>I was active duty military for 4 years and I was stationed in Fort Polk, Louisiana. I found while in the military that I really enjoyed the aspect of working in a 
+          team, being detail oriented, and constantly learning . After my contract I came back to Lexington and done rideshare with uber full time for a few years. 
+          Then, I decided I needed a change in life and a solid career for my future, which led me to enroll in the awesome inc bootcamp. Now, I am a full-stack web developer!
+          I’ve found that my passion is solving problems through writing code, and expanding my knowledge on being a developer. I am looking for a company where I contribute 
+          the skills I have learned, and continuously grow my knowledge on the tools and technologies used in development.</p>
        </div>
       </div>
       <div className='row skills justify-contents-center'>
-        <div className='col skillscol d-flex justify-content-end'>
+        <div className='col-sm-4 col-md-6 col-xl-4 skillscol d-flex justify-content-end'>
       <div className="card-deck mb-3 text-center">
         <div className="card mb-4 box-shadow">
           <div className="card-header">
@@ -75,7 +79,7 @@ export default function About() {
           </div>
         </div>
         </div>
-        <div className='col skillscol d-flex justify-content-center'>
+        <div className='col-sm-4 col-md-6 col-xl-4 skillscol d-flex justify-content-center'>
       <div className="card-deck mb-3 text-center">
         <div className="card mb-4 box-shadow">
           <div className="card-header">
@@ -112,7 +116,7 @@ export default function About() {
           </div>
         </div>
         </div>
-        <div className='col skillscol d-flex justify-content-start'>
+        <div className='col-sm-4 col-md-12 col-xl-4 skillscol d-flex justify-content-md-center justify-content-start'>
       <div className="card-deck mb-3 text-center">
         <div className="card mb-4 box-shadow">
           <div className="card-header">

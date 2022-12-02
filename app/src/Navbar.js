@@ -6,7 +6,7 @@ import App from './App'
 
 
 export default function Navbar({page, setPage}) {
-  const [navbar, setNavbar] = useState(false)
+const [navbar, setNavbar] = useState(false)
 const changeBackground = () => {
  if (window.scrollY >= 644) {
    setNavbar(true)
@@ -21,7 +21,7 @@ useEffect(() => {
   return (
     <div className='container nav'>
         <div className='row'>
-    <nav className= {navbar ? " navbar-active pb-3 navbar-expand-xl fixed-top" : "pb-5 nav navbar-expand-xl fixed-top"}>
+    <nav className= {navbar ? " navbar-active navbar-dark pb-3 navbar-expand-xl fixed-top" : "pb-5 nav navbar-light navbar-dark navbar-expand-xl fixed-top"}>
   <div className="container-fluid">
     
     <button
@@ -56,9 +56,6 @@ useEffect(() => {
             </a>
         </li>
         <li className="nav-item">
-        <button className='nav navbtn' onClick={() => setPage("Blog")}> 
-            Blog
-            </button>
         </li>
       </ul>
     </div>

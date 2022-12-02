@@ -15,7 +15,10 @@ export default function Hero() {
 </div>
       <div className='row text-center'>
     <div className='col'>
-        <button className='contactbtn'>Contact me!</button>
+    <a href = '#contactscroll'> <button className = 'contactbtn'>
+            Contact Me!
+            </button>
+            </a>
     </div>
 </div>
       </div>

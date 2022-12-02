@@ -8,14 +8,14 @@ export default function Contact() {
   return (
     <div className='container-fluid contact' id = 'contactscroll'>
     <div className='row h-100'>
-    <div className='col-6 d-flex justify-content-center'>
+    <div className='col-s-12 col-xl-6 d-flex justify-content-center'>
     <ContactForm />
       </div>
-      <div className='col-6 contactlinks'>
+      <div className='col-s-12 col-xl-6 contactlinks'>
         <div className = 'row d-flex justify-content-center mt-5'>
-          <div className='col-4 text-center'>
+          <div className='col-xs col-xl-4 text-center'>
           <h2 className='contactheader'>Contact</h2>
-          <h4 className='contactsubheader'>Wanna get in touch?</h4>
+          <h4 className='contactsubheader'>Want to get in touch?</h4>
           <p className = 'contactblurp'>I would love to hear from you! I am always open for project collaboration or hiring oppurtunities.</p>
         </div>
         </div>

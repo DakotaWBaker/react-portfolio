@@ -1,27 +1,12 @@
-html {
-  scroll-behavior: smooth;
-  z-index: -9;
-}
-#root {
-  z-index: -9;
-}
-body {
-  /* background-image: url(assets/machero.jpg);
-    height: 500px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center; */
-  /* font-family: 'Noto Sans', sans-serif;
-    height: 100%;
-    background-image: linear-gradient(to right bottom, #373e98, #38397b, #36345f, #312f44, #2a2a2a);
-    background-attachment: fixed; */
-  z-index: -9;
+html, #root, body {
+  z-index: -1;
 }
 .nav {
   background-color: transparent;
   color: white;
   border: none;
 }
+
 .navbtn {
   margin-right: 30px;
   padding-left: 10px;
@@ -45,10 +30,10 @@ a {
   width: 300px;
   justify-content: start;
 }
-.navbar-toggler {
+/* .navbar-toggler {
   background-color: white;
-  color: black;
-}
+  border-color: black;
+} */
 h5,
 h1 {
   color: white;
@@ -79,9 +64,10 @@ h2 {
 }
 
 .about {
-  /* background-color: grey; */
+  z-index: 2;
   margin-top: 700px;
   background-color: white;
+  position: relative;
 }
 
 .aboutpara {
@@ -89,9 +75,14 @@ h2 {
   color: #2a2a2a;
   padding: 75px 125px 75px 125px;
 }
+@media only screen and (max-width: 1260px) {
+  .aboutpara {
+    padding: 0px;
+  }
+}
 .hero {
   position: fixed;
-  z-index: -1;
+  z-index: 1;
   height: 100%;
   background-image: linear-gradient(
     to right bottom,
@@ -151,14 +142,96 @@ h2 {
   /* background-image: linear-gradient(to left top, #373e98, #38397b, #36345f, #312f44, #2a2a2a); */
   background-color: #f2f2f2;
   color: black;
+  z-index: 2;
+  position: relative;
 }
 
 .projectpics {
   max-height: 100%;
   max-width: 100%;
 }
-.projectcols {
+/* .projectcols {
   height: 300px;
+} */
+
+
+/* CSS */
+.button-21 {
+  align-items: center;
+  appearance: none;
+  background-color: #3EB2FD;
+  background-image: linear-gradient(1deg, #4F58FD, #149BF3 99%);
+  background-size: calc(100% + 20px) calc(100% + 20px);
+  border-radius: 100px;
+  border-width: 0;
+  box-shadow: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: CircularStd,sans-serif;
+  font-size: 1rem;
+  height: auto;
+  justify-content: center;
+  line-height: 1.5;
+  padding: 6px 20px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color .2s,background-position .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+
+
+/* CSS */
+.button-29 {
+  align-items: center;
+  appearance: none;
+  background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  /* height: 26px; */
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  /* padding-left: 8px; */
+  /* padding-right: 8px; */
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+}
+
+.button-29:focus {
+  box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+.button-29:hover {
+  box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.button-29:active {
+  box-shadow: #3c4fe0 0 3px 7px inset;
+  transform: translateY(2px);
 }
 .projectrow {
   border-bottom: 2px solid transparent;
@@ -202,6 +275,8 @@ strong::before {
     height: 500px;
     background-color: white;
     background-color: #2a2a2a;
+    z-index: 2;
+    position: relative;
 }
 
 .send-button {
@@ -262,4 +337,11 @@ textarea {
 }
 .contactblurp, .contactsubheader {
   color: white;
+}
+.projectlinks {
+  color:rgb(55, 62, 152);
+  text-decoration: underline rgb(55, 62, 152);
+}
+.projectlinks:hover, .projectlinks:active {
+  color: rgb(241, 103, 117);
 }
