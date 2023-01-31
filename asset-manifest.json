@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.689966aa.css",
+    "main.js": "/react-portfolio/static/js/main.970207bb.js",
+    "static/media/runelink.png": "/react-portfolio/static/media/runelink.64bedd1b186dc431059e.png",
+    "static/media/weather.png": "/react-portfolio/static/media/weather.64d47306efb7b1604a50.png",
+    "static/media/logo.png": "/react-portfolio/static/media/logo.a3f16204548ed3de8003.png",
+    "static/media/teamwork.svg": "/react-portfolio/static/media/teamwork.6fac33333253f6199a513e8b859d4556.svg",
+    "static/media/communication.svg": "/react-portfolio/static/media/communication.936cd6cd38ed9a72b72c317d43e56cfb.svg",
+    "static/media/react.svg": "/react-portfolio/static/media/react.1c1edc1f970a2944f689dcff8329bede.svg",
+    "static/media/python.svg": "/react-portfolio/static/media/python.2abc268ffd5e4bb1df19c10c0c79e501.svg",
+    "static/media/scrum.svg": "/react-portfolio/static/media/scrum.8ee62570163cbd6b388af0a59d6bb26c.svg",
+    "static/media/bootstrap.svg": "/react-portfolio/static/media/bootstrap.333f5e43f07c0838ca3c160adb53e877.svg",
+    "index.html": "/react-portfolio/index.html",
+    "static/media/github.svg": "/react-portfolio/static/media/github.228f114d343940e29fb57ed42a39a892.svg",
+    "static/media/smartphone.svg": "/react-portfolio/static/media/smartphone.3687e8ae64857cd5249c62a66f41aca1.svg",
+    "static/media/javascript.svg": "/react-portfolio/static/media/javascript.0d91e52c206882a56a42eac8507d7b44.svg",
+    "static/media/css3.svg": "/react-portfolio/static/media/css3.9cecabbf6ce67609c48bc4f280a11002.svg",
+    "static/media/django.svg": "/react-portfolio/static/media/django.96a11d135f9e4d1cba88d3747ed919db.svg",
+    "static/media/html5.svg": "/react-portfolio/static/media/html5.c28bc66880bc822f7aedbda70b2bf142.svg",
+    "static/media/linkedin.svg": "/react-portfolio/static/media/linkedin.f0b06086e72426dfafc0999aca220017.svg",
+    "static/media/email.svg": "/react-portfolio/static/media/email.2d0797ec83fd577c4d015b7100573486.svg",
+    "main.689966aa.css.map": "/react-portfolio/static/css/main.689966aa.css.map",
+    "main.970207bb.js.map": "/react-portfolio/static/js/main.970207bb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.689966aa.css",
+    "static/js/main.970207bb.js"
+  ]
+}
