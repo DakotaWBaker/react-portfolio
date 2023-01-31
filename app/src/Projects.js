@@ -25,7 +25,7 @@ export default function Projects() {
           </div>
           <div className="col-lg-4 col-xs-12">
           <button className = 'button-29'>
-          <a href = 'https://github.com/DakotaWBaker/Todo-app' className = "projectlinks" target = 'none'>View Code</a>
+          <a href = 'https://github.com/DakotaWBaker/RuneLink' className = "projectlinks" target = 'none'>View Code</a>
           </button>
           </div>
           </div>
