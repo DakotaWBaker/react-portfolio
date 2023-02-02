@@ -55,7 +55,7 @@ export default function Projects() {
           <div className="row d-flex justify-content-center">
           <div className="col-lg-4 col-xs-12">
             <button className = 'button-29' button type = 'button'>
-          <a href = 'https://dakotawbaker.github.io/react-restaurant' className = "projectlinks" >Live Demo</a>
+          <a href = 'https://dakotawbaker.github.io/react-restaurant' target = 'none' className = "projectlinks" >Live Demo</a>
           </button>
           </div>
           <div className="col-lg-4 col-xs-12">
@@ -78,7 +78,7 @@ export default function Projects() {
           <div className="row d-flex justify-content-center">
           <div className="col-lg-4 col-xs-12">
             <button className = 'button-29'>
-          <a href = 'https://dakotawbaker.github.io/Todo-App/' className = "projectlinks" >Live Demo</a>
+          <a href = 'https://dakotawbaker.github.io/Todo-App/' target = 'none' className = "projectlinks" >Live Demo</a>
           </button>
           </div>
           <div className="col-lg-4 col-xs-12">
@@ -114,7 +114,7 @@ export default function Projects() {
             <div className="row d-flex justify-content-center">
           <div className="col-lg-4 col-xs-12">
           <button className = 'button-29'>
-          <a href = '#' className = "projectlinks" >Live Demo</a>
+          <a href = '#' target = 'none' className = "projectlinks" >Live Demo</a>
           </button>
           </div>
           <div className="col-lg-4 col-xs-12">
