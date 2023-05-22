@@ -11,6 +11,36 @@ export default function Projects() {
         </div>
       </div>
       <div className="row projectrow justify-content-center pb-4 mt-5">
+        <div className="col-4 projectcols text-center">
+          <iframe
+            src="https://giphy.com/embed/CQNYoAQ5MDiQb4YQGw"
+            width="480"
+            height="224"
+            frameBorder="0"
+            className="projectpics"
+          ></iframe>
+        </div>
+        <div className="col-6 projectcols text-center pt-5">
+          <h4 className="">Impact Living Care</h4>
+          <hr className="w-25 m-auto mb-3 mt-2" />
+          <p>
+            This project was a freelance project for a company called Impact Living Housing. I built this website for the customer using React.JS, Bootstrap 5, and CSS 3. I launched this highly customized website using GitHub pages and custom domain purchase on GoDaddy with SEO{" "}
+          </p>
+          <div className="row d-flex justify-content-center">
+          <div className="col-lg-4 col-xs-12">
+            <button className = 'button-29' button type = 'button'>
+          <a href = 'https://impactlivingcare.org/#' target = 'none' className = "projectlinks" >Live Demo</a>
+          </button>
+          </div>
+          <div className="col-lg-4 col-xs-12">
+          <button className = 'button-29'>
+          <a href = 'https://github.com/DakotaWBaker/Impact-Living-Care' className = "projectlinks" target = 'none'>View Code</a>
+          </button>
+          </div>
+          </div>
+        </div>
+      </div>
+      <div className="row projectrow justify-content-center pb-4 mt-5">
         <div className="col-6 projectcols text-center pt-5">
           <h4 className=""> RuneLink</h4>
           <hr className="w-25 m-auto mb-3 mt-2" />
@@ -96,34 +126,6 @@ export default function Projects() {
             frameBorder="0"
             class="projectpics"
           ></iframe>
-        </div>
-      </div>
-      <div className="row projectrow justify-content-center pb-4 mt-5">
-        <div className="col-4 projectcols text-center">
-          <img src={weather} className="projectpics" />
-        </div>
-        <div className="col-6 projectcols text-center pt-5">
-          <h4 className=""> Weather App</h4>
-          <hr className="w-25 m-auto mb-3 mt-2" />
-          <p>
-            This project is a weather app using openweathermap api to retreive
-            weather data based on user inputted zip code! I also implemented
-            geolocation for retreiving weather data, and local storage so the
-            page isn't lost on refresh. This app was built with html, css,
-            javascript, and bootstrap{" "}
-            <div className="row d-flex justify-content-center">
-          <div className="col-lg-4 col-xs-12">
-          <button className = 'button-29'>
-          <a href = '#' target = 'none' className = "projectlinks" >Live Demo</a>
-          </button>
-          </div>
-          <div className="col-lg-4 col-xs-12">
-          <button className = 'button-29'>
-          <a href = 'https://github.com/DakotaWBaker/Weather-App' className = "projectlinks" target = 'none'>View Code</a>
-          </button>
-          </div>
-          </div>
-          </p>
         </div>
       </div>
     </div>
