@@ -1,4 +1,5 @@
 import React from 'react'
+import Resume from "./assets/Dakota_Baker_Resume.pdf"
 
 export default function Hero() {
   return (
@@ -17,6 +18,14 @@ export default function Hero() {
     <div className='col'>
     <a href = '#contactscroll'> <button className = 'contactbtn'>
             Contact Me!
+            </button>
+            </a>
+    </div>
+</div>
+ <div className='row text-center'>
+    <div className='col'>
+    <a href = {Resume}> <button className = 'contactbtn'>
+            Resume
             </button>
             </a>
     </div>

@@ -10,6 +10,7 @@ import agile from './assets/scrum.svg'
 import gh from './assets/github.svg'
 import comms from './assets/communication.svg'
 import tw from './assets/teamwork.svg'
+import headshot from "./assets/headshot.jpg"
 
 
 
@@ -20,10 +21,17 @@ export default function About() {
       <div className='row pt-5'>
        <div className='col sectionheader text-center'>
         <h2 className='aboutme mb-1'>About Me</h2>
+        <div className='row text-center mt-4' id = "headshot"> 
+           <div className='col d-flex justify-content-center'>
+       
+       <img src= {headshot} alt="prof pic" />
+       </div>
+       </div> 
         <hr className="w-25 m-auto mt-2" />
         </div>
         </div>
-        <div className='row'>
+        <div className='row'> 
+       
        <div className='col aboutpara text-center'>
         <p>I was active duty military for 4 years and I was stationed in Fort Polk, Louisiana. I found while in the military that I really enjoyed the aspect of working in a 
           team, being detail oriented, and constantly learning . After my contract I came back to Lexington and done rideshare with uber full time for a few years. 

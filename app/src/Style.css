@@ -345,3 +345,7 @@ textarea {
 .projectlinks:hover, .projectlinks:active {
   color: rgb(241, 103, 117);
 }
+#headshot {
+max-width: auto;
+height: auto;;
+}
